@@ -5,13 +5,21 @@ class people:
         self.peopleage = age
         self.peoplegender = gender
 
-    def display(self):
+    def salmaa(self):
         print(self.peoplename, self.peopleage, self.peoplegender)
 person1 = people("Salma", 34, "Female")
 person2 = people("Erick", 42, "Male")
 person3 = people("Stacy", 21, "Female")
 person4 = people("Hassan", 27, "Male")
-person1.display()
-person2.display()
-person3.display()
-person4.display()
+person1.salmaa()
+person2.salmaa()
+person3.salmaa()
+person4.salmaa()
+# person1.peopleage= 40
+# print(person1.peopleage)
+# del person1.peopleage
+# print(person1.peopleage)
+# class student(people):
+#     pass
+# x= student("Abdi", 22, "male")
+# x.salmaa()
